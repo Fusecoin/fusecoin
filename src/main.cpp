@@ -976,7 +976,7 @@ int64_t GetProofOfWorkReward(const int nHeight, int64_t nFees)
         nSubsidy = 0;
     }else
     {
-        nSubsidy=6875*(COIN/1000); //68.75
+        nSubsidy=6875*(COIN/100); //68.75
     }
 
     if (fDebug && GetBoolArg("-printcreation"))
